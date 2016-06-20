@@ -1,13 +1,11 @@
 
-body{
-
-
-}
+html,body{background-color:black  !important;}
 
 .header {
 width:100%;
 font-family: sans-serif;
 padding-bottom: 20px;
+background-color: black;
 }
 
 .header ul{
