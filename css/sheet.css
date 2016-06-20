@@ -53,18 +53,51 @@ text-shadow: 10px 10px 10px #FF0000;
 
 .supporting2
 {
+	background-color: #F4F4EF;
 
 margin:30px 30px 30px 30px;
+box-shadow: 0px 5px #888888;
 
 
 }
 .side-img-text{
 padding-left: 40px;
+padding-top:30px;
 font-family: sans-serif;
 font-size:20px;
 
+}
+
+.contact-form{
+
+padding-top: 30px;
+font-family: sans-serif;
+font-size:20px;
+text-align: center;
+}
+
+.button1 {
+	margin-top: 20px;
+    background-color: white;
+    box-shadow: 0px 2px 2px 2px #02B3E4;
+    color: black;
+    border: 2px solid #02B3E4;
+}
 
 
+.footer{
+
+background-color: #F4F4EF;
+margin-top: 30px;
+padding-top: 10px;
+padding-left: 10px;
 
 
+}
+.footer li{
+
+display: inline;
+text-decoration: none;
+margin-left: 30px;
+padding-right: 10px;
 }
