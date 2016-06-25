@@ -4,8 +4,9 @@
 <link rel="stylesheet" type="text/css" href="../css/sheet.css">
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="../js/script.js"></script>
 
-<tittle></tittle>
 </head>
 <body>
 
@@ -14,7 +15,7 @@
 <div class="row">
 	<div class="col-sm-4">
 	<p>
-	 <img src="https://cdn3.f-cdn.com/ppic/3621020/logo/3128235/ns-monogram-light-dark.png" width="80px" height="70px" style="float:left;padding-top:20px"> 
+	 <img src="https://cdn3.f-cdn.com/ppic/3621020/logo/3128235/ns-monogram-light-dark.png" width="80px" height="70px" style="position:absolute;float:left;padding-top:20px" id="sldr"> 
 	 	<em style="color:#28c7e0; font-size:40px; font-weight:8px;padding-top:20px;" class="glyphicon glyphicon-knight pull-right" >Navjot's </em>  
 	 </p>	
 </div>
@@ -47,13 +48,13 @@
 			</div>
 			<div class="col-sm-6 ">
 				<div class="col-sm-10">
-					<h2 style="color:#02B3E4; font-size:45px; font-family:serif;  "><strong>About Projects</strong></h2>
-					<blockquote>
-					<p class="side-img-text">
+					<h2 style="color:#02B3E4; font-size:45px; font-family:serif; " class="slide_down"><strong>About Projects</strong></h2>
+					<blockquote class="side-img-text">
+					<p >
 						In past years, I have done couple of projects in Embedded systems. These projects include list of my projects in bachelor degree as well as Masters.
 					</p>
 					</blockquote>
-					<button type="button" class="btn btn-default active btn-lg center-block" style="margin-top:90px; background:#02B3E4; color:white;">   KNOW MORE    </button>
+					<button type="button" class="btn btn-default active btn-lg center-block more" style="margin-top:90px; background:#02B3E4; color:white;">   KNOW MORE    </button>
 				</div>
 			</div>
 		</div>
@@ -77,15 +78,22 @@
 										<label for="email">Email: </label>
 								</div>
 								<div class="col-sm-10">
+								<p id="form-error" style="display:none; font-size: 12px; color:red;">Enter proper format!!</p>	
+								</div>
+
+								<div class="col-sm-10">
 										<input type="email" class="form-control" id="email" placeholder="xyz@abc.com">
 								</div>
 							</div>
 							<div class="form-group">
 								<div class="col-sm-2">
-										<label for="pwd" > Password: </label>
+										<label for="cell" > Mobile: </label>
 								</div>
 								<div class="col-sm-10">
-										<input type="password" class="form-control" id="pwd" placeholder="password">
+								<p id="form-error-tel" style="display:none; font-size: 12px; color:red;">Enter proper format!!</p>	
+								</div>
+								<div class="col-sm-10">
+										<input type="tel" class="form-control" id="cell" placeholder="Cell Number">
 								</div>
 							</div>
 							<div class="form-group">
@@ -102,7 +110,7 @@
 									</div>
 							</div>
 							<div class="form-group">
-								<button type="submit" class="button1">Submit</button>
+								<button type="submit" class="button1" >Submit</button>
 							</div>
 					</form>
 			</div>
@@ -112,6 +120,7 @@
 		</div>
 	</div>
 </div>
+
 
 <div class="footer container-fluid">
 <p style="text-align:center; line-height:1px;">By</p>
