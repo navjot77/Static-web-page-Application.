@@ -1,0 +1,28 @@
+html,body{
+
+
+	min-height: 100%;
+	min-width: 1024px;
+}
+
+body{
+background:url("https://photogrist.com/wp-content/uploads/2015/10/Maria-Lax2.jpg") center no-repeat;
+background-size: cover;
+      
+}
+
+
+
+
+.header {
+
+	
+	background:url("https://hiddenlighthouse.files.wordpress.com/2010/07/colors-of-light1.jpg")center repeat;
+	background-size: cover;
+
+	
+
+font-family: sans-serif;
+padding-bottom: 20px;
+background-color: #5F5F5F;
+}

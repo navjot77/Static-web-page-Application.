@@ -11,7 +11,7 @@
 
   $('#email').blur(function () {
   	var x= document.getElementById("email").value;
-	if ((x.search("@")) == -1)
+	if ((x.search(/@/)) == -1)
 	{
 		document.getElementById("form-error").style.display="block";
 
@@ -35,7 +35,7 @@
   	var x= document.getElementById("cell").value;
 	//if ((x.search([a-z]/i)) == -1)
 	var pat=/\D/g;
-	if ((x.search(pat)) == -1)
+	if (((x.search(pat)) == -1) && (x.length == 10))
 	{
 		document.getElementById("form-error-tel").style.display="None";
 		
