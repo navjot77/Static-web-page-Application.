@@ -11,18 +11,63 @@ background-size: cover;
       
 }
 
-
-
-
 .header {
 
 	
 	background:url("https://hiddenlighthouse.files.wordpress.com/2010/07/colors-of-light1.jpg")center repeat;
 	background-size: cover;
-
-	
-
-font-family: sans-serif;
-padding-bottom: 20px;
-background-color: #5F5F5F;
+	font-family: sans-serif;
+	padding-bottom: 20px;
+	background-color: #5F5F5F;
+	margin-bottom: 30px;
 }
+
+.headBody{
+
+
+	display: none;
+}
+
+
+#myOverlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top:100px;
+    background-color: rgba(0,0,0, 0.8);
+    overflow-y: hidden;
+    transition: 0.5s;
+     overflow: auto;
+}
+
+#overlay_grid, #overlay_grid2, #overlay_grid3{
+    height: 0%;
+    width: 400px;
+    position: absolute;
+    z-index: 1;
+	top:0px;	
+    background-color: rgba(0,0,0, 0.8);
+    overflow-y: hidden;
+    transition: 0.5s;
+    
+}
+
+.overlay-content, .overlay_grid_content, .overlay_grid_content2, .overlay_grid_content3{
+    position: relative;
+    color:white;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+#closebtn {
+    position: absolute;
+    top: 30px;
+    right: 45px;
+    font-size: 60px !important;
+}
+
