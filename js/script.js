@@ -1,4 +1,5 @@
 
+
  $(document).ready(function () {
             function rgt() {
                 $('#sldr').animate({ left: "400" }, 3000, left);
@@ -6,8 +7,23 @@
             rgt();
 
             function left() {
-             $('#sldr').animate({ left: "3" }, 2000);
+             $('#sldr').animate({ left: "50" }, 2000);
            }
+
+
+
+$(window).scroll(function() {
+
+    var scroll_pos = window.pageYOffset;
+    if(scroll_pos>=5) {
+       $(".header").css("background-color","black");
+    }
+    else
+    {
+    	 $(".header").css("background-color","transparent");
+    }
+    });
+
 
   $('#email').blur(function () {
   	var x= document.getElementById("email").value;
@@ -60,6 +76,12 @@ var x= document.getElementById("email").value;
 alert(x);
 });
 
+
+	jQuery('.supporting3').addClass("hidde").viewportChecker({
+	    classToAdd: 'visibl animated bounceInUp', // Class to add to the elements when they are visible
+	    offset: 100    
+	   });  
+ 
 
 
 });

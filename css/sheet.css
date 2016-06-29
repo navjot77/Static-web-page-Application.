@@ -5,7 +5,6 @@ html,body{background-color:black  !important;}
 width:100%;
 font-family: sans-serif;
 padding-bottom: 20px;
-background-color: black;
 }
 
 .header ul{
@@ -32,14 +31,15 @@ color:black;
 
 
 .supporting1{
-	background: url("http://www.layoverguide.com/wp-content/uploads/2010/12/Golden-Gate-Bridge-in-San-Francisco-bay.jpg") no-repeat center;
+background: url("https://wallpaperscraft.com/image/san_francisco_bridge_sea_night_58442_1920x1080.jpg") no-repeat center;
 background-size: cover;
 width:100%;
 height:400px;
 font-family: sans-serif;
 }
+
 .heading1{
-color:#e8c91b;
+color:white;
 font-weight: 900;
 font-size: 50px;
 margin:auto;
@@ -51,16 +51,13 @@ text-shadow: 10px 10px 10px #FF0000;
 
 .supporting2
 {
-	/*background-color: #F4F4EF;*/
-
 margin:30px 30px 30px 30px;
 box-shadow: 0px 5px #888888;
-
 
 }
 .supporting3
 {
-	
+
 box-shadow: 0px 5px #888888;
 }
 .side-img-text{
@@ -103,5 +100,12 @@ display: inline;
 text-decoration: none;
 margin-left: 30px;
 padding-right: 10px;
+}
+.hidde{
+	opacity: 0;
+}
+
+.visibl{
+	opacity: 1;
 }
 

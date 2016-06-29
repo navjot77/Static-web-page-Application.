@@ -65,6 +65,8 @@ background-size: cover;
 
 
 #closebtn {
+	color:white;
+	text-decoration: none;
     position: absolute;
     top: 30px;
     right: 45px;
