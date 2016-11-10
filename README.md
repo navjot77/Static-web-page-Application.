@@ -1,4 +1,4 @@
-# web
+# Static web page Application
 
 This project generates a static web page and uses 
 jquery, bootstrap, css libraries.
